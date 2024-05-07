@@ -1,0 +1,17 @@
+.countryItem {
+  border-left: 3px solid red;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.094);
+  font-size: 0.9rem;
+  margin: 0;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-text-color);
+  cursor: default;
+  min-height: 45px;
+}

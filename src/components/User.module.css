@@ -1,0 +1,25 @@
+.user {
+  position: absolute;
+  z-index: 1000;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #263238;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0.75rem;
+  min-width: 220px;
+}
+.user p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.user img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 5rem;
+}

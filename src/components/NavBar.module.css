@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 50px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.navList li a {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: all 0.3s;
+}
+.navList li:not(.loginBtn) a:hover {
+  color: var(--main-green);
+}
+
+.loginBtn a {
+  background-color: var(--main-green);
+  border-radius: 0.5rem;
+  color: var(--main-black) !important;
+  transition: all 0.3s;
+}
+.loginBtn a:hover {
+  border-radius: 0.25rem;
+}
+
+.navList :global(.user) {
+  position: static !important;
+  transform: translate(0, 0) !important;
+  background-color: rgba(255, 255, 255, 0.171) !important;
+}
+.navList :global(.user) button {
+  background-color: var(--main-green) !important;
+  color: black !important;
+}

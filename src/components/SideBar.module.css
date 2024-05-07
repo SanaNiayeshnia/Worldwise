@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #263238;
+  padding: 1rem 2rem;
+  position: relative;
+  height: calc(100vh - 5rem);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}

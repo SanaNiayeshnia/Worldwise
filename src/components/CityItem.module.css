@@ -1,0 +1,28 @@
+.cityItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.094);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 250px;
+  border-left: 3px solid var(--main-green);
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.cityItem div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cityItem p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.cityItem i {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cityItem i:hover {
+  color: white;
+}

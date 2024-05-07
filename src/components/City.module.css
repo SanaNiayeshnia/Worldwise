@@ -1,0 +1,42 @@
+.city {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.094);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+  align-items: flex-start;
+}
+.city p {
+  margin: 0.1rem;
+}
+.city .title {
+  font-size: 0.8rem;
+  color: #cfd8dc;
+}
+.city .content {
+  font-size: 0.9rem;
+  color: var(--main-text-color);
+}
+.city .cityName .content {
+  font-size: 1rem !important;
+}
+.city .learnMore .content {
+  color: var(--main-orange);
+}
+.city button {
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.847);
+}
+.city button:hover {
+  background-color: var(--main-green);
+}
+.city button i {
+  margin-right: 0.25rem;
+}

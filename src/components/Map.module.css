@@ -1,0 +1,41 @@
+.mapContainer {
+  color: var(--main-text-color);
+  text-align: center;
+  background-color: #263238da;
+  position: relative;
+}
+.map {
+  height: 100%;
+}
+:global(.leaflet-popup-content-wrapper) {
+  background-color: #263238;
+  border-left: 5px solid var(--main-green);
+}
+:global(.leaflet-popup-content) {
+  color: var(--main-text-color);
+}
+:global(.leaflet-popup-close-button span) {
+  color: var(--main-text-color);
+  transition: all 0.3s;
+}
+:global(.leaflet-popup-close-button span):hover {
+  color: white;
+}
+:global(.leaflet-popup-tip) {
+  background-color: #263238;
+}
+
+.myPositionBtn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-green);
+  box-shadow: #263238 0 3px 7px 0;
+}

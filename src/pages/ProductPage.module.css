@@ -1,0 +1,18 @@
+.productPage {
+  padding: 1rem 2rem;
+  background-color: #263238;
+  height: calc(100vh - 5rem);
+}
+.contentWrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.contentWrapper img {
+  max-width: 30%;
+}
+.contentWrapper p {
+  text-align: justify;
+}

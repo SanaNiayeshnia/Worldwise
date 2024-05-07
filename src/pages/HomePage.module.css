@@ -1,0 +1,28 @@
+.homePage {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.774)),
+    url(../bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: calc(100vh - 5rem);
+  padding: 1rem 2rem;
+}
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 75%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.contentWrapper .title {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 800 !important;
+}
+.contentWrapper .subtitle {
+  margin-top: 0;
+  font-size: 1.8rem;
+}

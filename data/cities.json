@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "7019",
+      "cityName": "Ghayl Bin Yamin",
+      "country": "Yemen",
+      "emoji": "",
+      "date": "2024-03-14T10:45:45.161Z",
+      "notes": "",
+      "position": {
+        "lat": "15.3945268499649",
+        "lng": "49.128072373544946"
+      }
+    },
+    {
+      "id": "0b6a",
+      "cityName": "Zorita de la Frontera",
+      "country": "Spain",
+      "emoji": "",
+      "date": "2024-04-16T08:01:21.870Z",
+      "notes": "ggfg",
+      "position": {
+        "lat": "41.01629824635041",
+        "lng": "-5.201136562500009"
+      }
+    },
+    {
+      "id": "0ac0",
+      "cityName": "Pruniers",
+      "country": "France",
+      "emoji": "",
+      "date": "2024-04-07T09:14:39.000Z",
+      "notes": "goood🙂",
+      "position": {
+        "lat": "46.749062310616736",
+        "lng": "2.0462036132812504"
+      }
+    }
+  ]
+}

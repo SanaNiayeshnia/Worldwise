@@ -1,0 +1,18 @@
+.pricingPage {
+  padding: 1rem 2rem;
+  height: calc(100vh - 5rem);
+  background-color: #263238;
+}
+.contentWrapper {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.contentWrapper img {
+  max-width: 30%;
+}
+.contentWrapper div p {
+  margin-bottom: 2rem;
+}
