@@ -17,13 +17,6 @@ Worldwise is a React-based application that allows users to record and save thei
 - JSON Server (Fake API)
 - Leaflet (for map integration)
 
-### Login
-
-Use the following credentials to log in to the application:
-
-- **Email**: `Sana@gmail.com`
-- **Password**: `6121381`
-
 ## Usage
 
 1. **Add a Trip**:
@@ -41,6 +34,13 @@ Use the following credentials to log in to the application:
 You can see a live demo of the application at:
 
 [Worldwise Demo](https://the-world-wise-web-app.netlify.app/)
+
+### Login
+
+Use the following credentials to log in to the application:
+
+- **Email**: `Sana@gmail.com`
+- **Password**: `6121381`
 
 ## Acknowledgements
 
